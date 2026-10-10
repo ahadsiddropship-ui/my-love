@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Made just for you</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Caveat:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="bg" id="bg" aria-hidden="true"></div>
+
+<section class="hero">
+  <p class="hand tap" style="font-size:1.8rem">a tiny corner of the internet, just for you</p>
+  <h1 id="title"></h1>
+  <p id="sub"></p>
+  <button id="bigheart" aria-label="Tap for hearts">&#128150;</button>
+  <span class="hand tap">tap the heart</span>
+</section>
+
+<section>
+  <h2>Things I love about you</h2>
+  <div class="stickers" id="loves"></div>
+</section>
+
+<section>
+  <h2>Our little story</h2>
+  <div class="line" id="story"></div>
+</section>
+
+<section>
+  <h2>A note, written by hand (sort of)</h2>
+  <div class="letter hand" id="letter"></div>
+</section>
+
+<section>
+  <h2>Play with me</h2>
+  <div class="panel"><h3 class="hand">Quiz: how well do you know me?</h3><div id="quiz"></div></div>
+  <div class="panel"><h3 class="hand">Match the pairs</h3><p class="hint" id="mstat"></p><div class="board" id="board"></div><button class="btn small" id="mreset">Shuffle</button></div>
+</section>
+
+<section>
+  <h2>The secret page</h2>
+  <p class="hint" id="shint">This page looks empty. Pick up the magnifying glass and hover it over the paper.</p>
+  <div class="desk" id="desk">
+    <div class="paper" id="paper"></div>
+    <div class="glass" id="glass" tabindex="0" role="img" aria-label="Magnifying glass. Drag it, or use the arrow keys, over the page to read the hidden message."><div class="handle"></div><div class="lens" id="lens"></div></div>
+  </div>
+</section>
+
+<section class="ask">
+  <h2 id="q"></h2>
+  <div class="arena" id="arena">
+    <button class="btn" id="yes">Yes</button>
+    <button class="btn" id="no">No</button>
+  </div>
+  <p class="hint hand" id="hint" style="font-size:1.6rem"></p>
+  <p class="win" id="win"></p>
+</section>
+
+<footer class="hand" id="foot"></footer>
+
+<script src="script.js"></script>
+</body>
+</html>
